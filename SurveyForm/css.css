@@ -1,0 +1,80 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  background-color: #303134;
+  color: #f7f7f7;
+}
+h1 {
+  margin: auto;
+  width: 50%;
+  margin-bottom: -15px;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  color: #f7f7f7;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: auto;
+  width: 30%;
+  padding: 50px 0px 50px 50px;
+  background-color: #303134;
+}
+
+#name {
+  width: 87%;
+  margin: 5px 0px 20px 0px;
+  background-color: #e8eaed;
+  border: 0px;
+}
+#email {
+  width: 87%;
+  margin: 5px 0px 20px 0px;
+  background-color: #e8eaed;
+  border: 0px;
+}
+::placeholder {
+  color: #303134;
+}
+#number {
+  width: 87%;
+  margin: 5px 0px 20px 0px;
+  background-color: #e8eaed;
+  border: 0px;
+}
+#dropdown {
+  width: 87%;
+  margin: 5px 0px 20px 0px;
+  background-color: #e8eaed;
+  color: #303134;
+}
+#lang {
+  margin-bottom: 2px;
+}
+#color {
+  margin-bottom: 2px;
+}
+#comment {
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: #1a73e8;
+  border-radius: 50x;
+  margin-left: 80%;
+  margin-top: 5%;
+  width: 70px;
+  height: 30px;
+  color: #eae8ed;
+}
+#comments {
+  width: 87%;
+  height: 50px;
+}

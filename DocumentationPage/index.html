@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <body>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h2>Introduction</h2>
+        </header>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+        <p>It is used for:
+        <ul>
+          <li>web development (server-side),</li>
+          <li>software development,</li>
+          <li>mathematics,</li>
+          <li>system scripting.</li>
+        </ul>
+        </p>
+        <p>What can python do?
+        <ul>
+          <li>Python can be used on a server to create web applications.</li>
+          <li>Python can be used alongside software to create workflows.</li>
+          <li>Python can connect to database systems. It can also read and modify files.</li>
+          <li>Python can be used to handle big data and perform complex mathematics.</li>
+          <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+        </ul>
+        </p>
+      </section>
+      <section id="Hello_World" class="main-section">
+        <header>
+          <h2>Hello World</h2>
+        </header>
+        <p>
+          To get started with Python, open the IDLE pragram and write your first "Hello world" code:
+        </p>
+        <div class="code"><code>print('Hello, world!')</code></div>
+        <p>Write the code and then run it, your output should look like.</p>
+        <div class="code"><code>Hello, world!</code></div>
+      </section>
+      <section id="Variables" class="main-section">
+        <header>
+          <h2>Variables</h2>
+        </header>
+        <p>Python is not “statically typed”. We do not need to declare variables before using them or declare their type. A variable is created the moment we first assign a value to it. A variable is a name given to a memory location. It is the basic unit of storage in a program.
+        <ul>
+          <li>
+            The value stored in a variable can be changed during program execution.</li>
+          <li>
+            A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.</li>
+        </ul>
+        </p>
+      </section>
+      <section id="Declaring_Variables" class="main-section">
+        <header>
+          <h2>Declaring Variables</h2>
+        </header>
+        <p>Rules for creating variables in Python:
+        <ul>
+          <li>A variable name must start with a letter or the underscore character.</li>
+          <li>A variable name cannot start with a number.</li>
+          <li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).</li>
+          <li>Variable names are case-sensitive (name, Name and NAME are three different variables).</li>
+          <li>The reserved words(keywords) cannot be used naming the variable.</li>
+        </ul>
+        Example
+        <div class="code">
+          <code>
+            age = 45<br>
+            salary = 1456.8<br>
+            name = "John"<br>
+            print(age)<br>
+            print(salary)<br>
+            print(name)
+          </code>
+        </div><br>
+        Output:
+        <div class="code">
+          <code>
+            45<br>
+            1456.8<br>
+            John<br>
+          </code>
+        </div>
+        </p>
+      </section>
+      <section id="Variable_Scope" class="main-section">
+        <header>
+          <h2>Variable Scope</h2>
+        </header>
+        <p>The location where we can find a variable and also access it if required is called the scope of a variable.</p>
+      </section>
+      <section id="Global_Variables" class="main-section">
+        <header>
+          <h2>Global Variables</h2>
+        </header>
+        <p>
+          Global variables are the ones that are defined and declared outside any function and are not specified to any function. They can be used by any part of the program.</p>
+        Example
+        <div class="code">
+          <code>
+            def f():<br>
+            &emsp;print(s)<br>
+            <br>
+            s = "Hello World"<br>
+            f()
+          </code>
+        </div><br>
+        Output:
+        <div class="code">
+          <code>
+            Hello World
+          </code>
+        </div>
+      </section>
+      <section id="Data_Types" class="main-section">
+        <header>
+          <h2>Data Types</h2>
+        </header>
+        <p>
+          Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.</p>
+        <p>
+          Following are the standard or built-in data type of Python:</p>
+        <ul>
+          <li>Numeric</li>
+          <li>Sequence Type</li>
+          <li>Boolean</li>
+          <li>Set</li>
+          <li>Dictionary</li>
+        </ul>
+      </section>
+      <section id="if...else_statements" class="main-section">
+        <header>
+          <h2>if...else statements</h2>
+        </header>
+        <p>if statement is the most simple decision making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statement is executed otherwise not.</p>
+        <div class="code">
+          <code>if condition:<br>
+            &emsp;# Statements to execute if<br>
+            &emsp;# condition is true</code>
+        </div>
+        <p>Here, condition after evaluation will be either true or false. if statement accepts boolean values – if the value is true then it will execute the block of statements below it otherwise not. We can use condition with bracket ‘(‘ ‘)’ also.</p>
+        <p>As we know, python uses indentation to identify a block. So the block under an if statement will be identified as shown in the below example:</p>
+        <div class="code">
+          <code>if condition:<br>
+            &emsp;statement1<br>
+            statement2<br><br>
+            # Here if the condition is true, if block<br>
+            # will consider only statement1 to be inside <br>
+            # its block.
+          </code>
+        </div>
+        Example
+        <div class="code">
+          <code>
+            i = 10<br>
+            if (i > 15):<br>
+            &emsp;print ("10 is less than 15")<br>
+            print ("I am Not in if")
+          </code>
+        </div><br>
+        Output:
+        <div class="code">
+          <code>
+            I am Not in if
+          </code>
+        </div>
+      </section>
+      <section id="Reference" class="main-section">
+        <header>
+          <h2>Reference</h2>
+        </header>
+        <ul>
+          <li>
+            All the documentation in this page is taken from <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank" id="referencelink">Geeksforgeeks</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <nav id="navbar">
+      <header>
+        <h2>Python Documentation</h2>
+      </header>
+      <div id="navdiv">
+        <a href="#Introduction" class="nav-link">Introduction</a>
+      </div>
+      <div id="navdiv1">
+        <a href="#Hello_World" class="nav-link">Hello World</a>
+      </div>
+      <div id="navdiv2">
+        <a href="#Variables" class="nav-link">Variables</a>
+      </div>
+      <div id="navdiv3">
+        <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
+      </div>
+      <div id="navdiv4">
+        <a href="#Variable_Scope" class="nav-link">Variable Scope</a>
+      </div>
+      <div id="navdiv5">
+        <a href="#Global_Variables" class="nav-link">Global Variables</a>
+      </div>
+      <div id="navdiv6">
+        <a href="#Data_Types" class="nav-link">Data Types</a>
+      </div>
+      <div id="navdiv7">
+        <a href="#if...else_statements" class="nav-link">if...else statements</a>
+      </div>
+      <div id="navdiv8">
+        <a href="#Reference" class="nav-link">Reference</a>
+      </div>
+    </nav>
+</html>

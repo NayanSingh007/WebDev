@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <main>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">description of the form</p>
+    <form id="survey-form">
+      <label for="name-label" id="name-label">Name:</label><br>
+      <input type="text" placeholder="Enter your name" id="name" required><br>
+      <label for="email-label" id="email-label">Email:</label><br>
+      <input type="email" placeholder="Enter your email" id="email" required><br>
+      <label for="number-label" id="number-label">Age:</label><br>
+      <input type="number" placeholder="Enter your age" id="number" min="10" max="100" required><br>
+      <label for="dropdown">What are you?</label><br>
+      <select name="status" id="dropdown">
+        <option value="noob" id="dropdown">Noob</option>
+        <option value="professional" id="dropdown">Professional</option>
+        <option value="expert" id="dropdown">Expert</option>
+        <option value="god" id="dropdown">God</option>
+      </select>
+      <p id="lang">Please select your favorite web language</p>
+      <input id="webl1" type="radio" name="language" value="javascript">
+      <label for="webl1">Javascript</label><br>
+      <input id="webl2" type="radio" name="language" value="css">
+      <label for="webl2">CSS</label><br>
+      <input id="webl3" type="radio" name="language" value="html">
+      <label for="webl3">HTML</label><br>
+  
+      <p id="color">Choose the colors you like</p>
+      <input type="checkbox" id="color1" name="color" value="red">
+      <label for="color1">Red</label><br>
+      <input type="checkbox" id="color2" name="color" value="green">
+      <label for="color2">Green</label><br>
+      <input type="checkbox" id="color2" name="color" value="blue">
+      <label for="color2">Blue</label><br>
+      <p id="comment">Any Comments or suggestions?</p>
+      <textarea row="5" column="5" name="comment" form="survey-form" id="comments">Enter your comments here</textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  
+  </main>
+</body>
+</html>
